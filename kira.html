@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<section>
+    <label for="sayi">Önceki Kira:</label>
+	<input type="number" id="sayi">
+	<br>
+    <br>
+	<select id="artis">
+    	<option value="0.25">%0.25</option>
+	</select>
+	<button onclick="hesapla()">Hesapla</button>
+	<br><br>
+	<label for="sonuc">Sonuç</label>
+	<label id="sonuc"></label>
+    <br>
+    <label for="toplam">Yeni Tutar</label>
+    <label id="toplam"></label>
+</section>
+
+    <script src="kira.js"></script>
+</body>
+</html> 
